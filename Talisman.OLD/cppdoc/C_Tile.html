@@ -1,0 +1,78 @@
+<html><head>
+  <title>cppdoc</title>
+  <link rel="stylesheet" href="cppdoc.css" type="text/css">
+</head>
+<body>
+Class <i>Tile</i><br><br>
+Tile base class<br><br>
+Created by Jason Pike ()<br>
+<br>
+<table class="mFuncTable" cellspacing=0>
+  <tr>
+    <td class="mFuncHeader">public void Run()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">Perform a tile's operation. Virtual</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modPlayer(char op, Character* character)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Add or remove a character from a tile. If op is '+' the character is added. If op is '-' the character is removed.<h3 class="paramHeader">Parameters</h3>char op - Operation to perform<br>Character* character - The character to add/remove<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getCardNum()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">Get the number of cards on the tile</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public Acards* getCard()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">???</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public string getName()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the tile's name<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>string - The tile's name</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getId()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the tile's ID number<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>int - The tile's ID number</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+</table>
+<table cellspacing=0 class="mDataTable">
+  <tr>
+    <td class="mDataHeader"><h3 class="mDHeader">Member Data</h3></td>
+  </tr>
+  <tr>
+    <td class="mDDesc">public vector&lt;Acards*> _cardsOnTile - List of cards on the tile<br>public vector&lt;Character*> _playersOnTile - List of players on the tile<br>public int _cardLimit - Number of cards the tile can hold<br>public string _name - The tile's name<br>public int _id - The tile's ID number<br></td>
+  </tr>
+</table><br>
+Children classes: <a class="children" href="C_DrawTile.html">DrawTile</a>, <a class="children" href="C_City.html">City</a>, <a class="children" href="C_Crags.html">Crags</a>, <a class="children" href="C_Chapel.html">Chapel</a>, <a class="children" href="C_Sentinel.html">Sentinel</a>, <a class="children" href="C_Graveyard.html">Graveyard</a>, <a class="children" href="C_Village.html">Village</a>, <a class="children" href="C_Forest.html">Forest</a>, <a class="children" href="C_Tavern.html">Tavern</a></body>
+</html>

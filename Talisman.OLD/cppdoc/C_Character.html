@@ -1,0 +1,210 @@
+<html><head>
+  <title>cppdoc</title>
+  <link rel="stylesheet" href="cppdoc.css" type="text/css">
+</head>
+<body>
+Class <i>Character</i><br><br>
+Generic character class. Specific character classes are derived from this. The preRoll and charRoll functions must be defined in the derived classes.<br><br>
+Created by Jason Pike (9/21/02)<br>
+Modifications:<br>
+  Greg Walker (10/2/02)<br>
+  Jason Pike (11/16/02)<br>
+<br>
+<table class="mFuncTable" cellspacing=0>
+  <tr>
+    <td class="mFuncHeader">public void Character()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Character class constructor<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getAlign()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's alignment<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>int - The character's alignment</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getCraft()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's craft<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>int - The character's craft</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getGold()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's gold<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>int - The character's gold</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getId()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">Returns the character's id number.</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getLives()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">Returns the number of lives the character has.</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getLocation()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's current location<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>int - The character's current location</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public string getName()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's name<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>string - The character's name</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getStr()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's strength<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>int - The character's strength</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int getRegion()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Returns the character's current region<h3 class="paramHeader">Parameters</h3><h3 class="retHeader">Returns</h3>in - The character's current region</td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modAlign(int align)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Sets a character's alignment<h3 class="paramHeader">Parameters</h3>int align - The new character alignment<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modCraft(int craft)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Modifies a character's craft<h3 class="paramHeader">Parameters</h3>int craft - Value to change the character's craft<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modExp(char op, int num)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Modifies a character's strength or craft experience, depending on the value of op. If op is 's' then change the character's strength by the value in num. If op is 'c' then change the character's craft.<h3 class="paramHeader">Parameters</h3>char op - What type of operation to perform<br>int num - Amount to change<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modGold(int gold)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Modifies the amount of gold a character has<h3 class="paramHeader">Parameters</h3>int gold - Value to change the character's gold<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modLives(int lives)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Modifies the number of lives a player has<h3 class="paramHeader">Parameters</h3>int lives - Value to change the character's lives<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public int modLocation(int newLocation)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Changes a character's location<h3 class="paramHeader">Parameters</h3>int newLocation - The character's new location<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void modStr(int str)</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>Modifies a character's strength<h3 class="paramHeader">Parameters</h3>int str - Value to change the character's strength<br><h3 class="retHeader">Returns</h3><i>Nothing</i></td>
+  </tr>
+
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void charRoll()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">Perform a dice roll for this character.</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader">public void preRoll()</td>
+  </tr>
+  <tr>
+    <td class="mFuncDesc">Perform this character's pre-roll abilities.</td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+</table>
+<table cellspacing=0 class="mDataTable">
+  <tr>
+    <td class="mDataHeader"><h3 class="mDHeader">Member Data</h3></td>
+  </tr>
+  <tr>
+    <td class="mDDesc">private int _align - The character's alignment.<br>private int _craft - The character's craft.<br>private int _craftExp - Number of craft experience points the character has.<br>private int _dice - Number of dice the character can roll for movement.<br>private int _gold - How much gold the character has.<br>private int _id - The character's id number.<br>private int _lives - How many lives the character has. @MData int private _location "The character's location on the map.<br>public char* _name - The character's name.<br>private int _region - The region the character is in.<br>private int _str - The character's strength.<br>private int _strExp - Number of strength experience points the character has.<br></td>
+  </tr>
+</table><br>
+Children classes: <a class="children" href="C_CHR_Amazon.html">CHR_Amazon</a>, <a class="children" href="C_CHR_Assassin.html">CHR_Assassin</a>, <a class="children" href="C_CHR_Barbarian.html">CHR_Barbarian</a></body>
+</html>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2006-04-25T02:10:00.222360Z"
+   url="svn+ssh://zuluSVN/ParallelMinds/SVN/Talisman"
+   last-author="greg"
+   kind="dir"
+   uuid="d58172c9-2212-0410-9c63-9642c3c9f225"
+   repos="svn+ssh://zuluSVN/ParallelMinds/SVN"
+   revision="8"/>
+<entry
+   committed-rev="9"
+   name="GameBoard.cpp"
+   text-time="2005-05-18T13:33:22.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="f7fa94941c7b0612cdf4abfd48f43328"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="Character.h"
+   text-time="2005-05-16T22:24:04.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="4146cb68246dd478c7c86b5ce5957ca1"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="Talisman.sln"
+   text-time="2006-04-24T01:23:50.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="e6ad4237b0d8510249dbd2dab2ac51c2"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="main.cpp"
+   text-time="2005-05-16T18:37:06.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="37db454bbce1f0fc2d9eb810fef0c888"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="Deck.cpp"
+   text-time="2005-05-17T11:37:16.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="80554204f1def829d6aaf4a778c4adab"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="GameBoard.h"
+   text-time="2005-05-17T16:38:22.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="475baba7fe599486f35cc1cd3e3492fb"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="Initialize.h"
+   text-time="2005-05-17T11:46:56.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="f2ea107238c70c72a330f31cdbb291ed"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="LinkedList.h"
+   text-time="2005-05-16T22:29:06.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="0e19b18492cb35bf3e9628374915873d"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="GLOBALS.H"
+   text-time="2005-05-16T18:36:52.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="68f41670981b3b16990d34db44e1396b"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="code.vcproj"
+   text-time="2006-04-25T02:09:38.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="5bd5a4a0e1c6cf57edb6c364b32c0768"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="Deck.h"
+   text-time="2005-05-17T11:36:04.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="612822b9300bce988438472e16803e02"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+<entry
+   committed-rev="9"
+   name="Character.cpp"
+   text-time="2005-05-16T22:23:32.000000Z"
+   committed-date="2006-04-25T02:10:06.155043Z"
+   checksum="37bd7d7a8ef370b46e484997f9ad703b"
+   last-author="greg"
+   kind="file"
+   revision="9"/>
+</wc-entries>

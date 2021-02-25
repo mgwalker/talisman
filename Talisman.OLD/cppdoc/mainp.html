@@ -1,0 +1,85 @@
+<html><head>
+  <title>Talisman, version 0.1.a (cppdoc)</title>
+  <link rel="stylesheet" href="cppdoc.css" type="text/css">
+</head>
+<body class="mainp">
+<h1 class="projNameMain">Talisman</h1>
+<center>Version 0.1.a, &copy; Copyright 2002, Jason Pike and Greg Walker<br><br>
+<p class="projDesc">Talisman is a computer game based on the 1980's fantasy role-playing game by Games Workshop. Players roll dice and move around the game board. Actions must be taken according to which board tiles the player lands on, including fighting enemies or other players already on the same tile.</p>
+<h3 class="gfHeader">Global Functions</h3><table cellspacing=0 class="mFuncTable">
+  <tr>
+    <td class="mFuncHeader"><a name="f_roll">int roll(int dice)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>This function simulates the rolling of a specified number of die and return the results.</h3><h3 class="paramHeader">Parameters</h3>int dice - The number of dice to roll.<br><h3 class="retHeader">Returns</h3>int - The sum of the dice rolls.<br><br>Created by Greg Walker (9/25/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader"><a name="f_initACards">vector&lt;Acards*> initACards(vector&lt;Acards*> AdventureDeck)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>This function loads the adventure card objects into a vector and returns it.</h3><h3 class="paramHeader">Parameters</h3>vector&lt;Acards*> AdventureDeck - The empty deck of adventure cards.<br><h3 class="retHeader">Returns</h3>vector&lt;Acards*> - The full deck of adventure cards.<br><br>Created by Jason Pike (10/17/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader"><a name="f_initOuterRegion">CircularList&lt;Tile> initOuterRegion(CircularList&lt;Tile> outer_region)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3></h3><h3 class="paramHeader">Parameters</h3>CircularList&lt;Tile> outer_region - The empty circularly linked list of tiles that make up the outer region.<br><h3 class="retHeader">Returns</h3>CircularList&lt;Tile> - The loaded circularly linked list of tiles that make up the outer region. @Desc "This function loads the tile objects that represent the outer region into a circularly linked list and returns it.<br><br>Created by Jason Pike (10/17/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader"><a name="f_initPlayers">CircularList&lt;Character> initPlayers(CircularList&lt;Character> players)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3></h3><h3 class="paramHeader">Parameters</h3>CircularList&lt;Character> players - The empty circularly linked list of players in the game.<br><h3 class="retHeader">Returns</h3>CircularList&lt;Character> - The loaded circularly linked list of players in the game. @Desc "This function loads the player objects in the game into a circularly linked list and returns it.<br><br>Created by Jason Pike (10/17/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader"><a name="f_setLocation">Tile* setLocation(Character* currentPlayer, Tile* currentTile, CircularList&lt;Tile> outer_region, CircularList&lt;Tile> middle_region, CircularList&lt;Tile> inner_region)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>This function is used to move the character from one tile to the next.</h3><h3 class="paramHeader">Parameters</h3>Character* currentPlayer - Pointer to the current character.<br>Tile* currentTile - Pointer to the current tile.<br>CircularList&lt;Tile> outer_region - Outer Region tiles in a circularly linked list.<br>CircularList&lt;Tile> middle_region - Middle Region tiles in a circularly linked list.<br>CircularList&lt;Tile> inner_region - Inner Region tiles in a circularly linked list.<br><h3 class="retHeader">Returns</h3>Tile* - Returns the new current tile.<br><br>Created by Jason Pike (10/17/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader"><a name="f_doMove">Tile* doMove(Character* currentPlayer, Tile* currentTile, CircularList&lt;Tile> outer_region, CircularList&lt;Tile> middle_region, CircularList&lt;Tile> inner_region)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>This function interacts with the player to determine where they can/will move according to the dice roll.</h3><h3 class="paramHeader">Parameters</h3>Character* currentPlayer - Pointer to the current character.<br>Tile* currentTile - Pointer to the current tile.<br>CircularList&lt;Tile> outer_region - Outer Region tiles in a circularly linked list.<br>CircularList&lt;Tile> middle_region - Middle Region tiles in a circularly linked list.<br>CircularList&lt;Tile> inner_region - Inner Region tiles in a circularly linked list.<br><h3 class="retHeader">Returns</h3>Tile* - Returns the new current tile.<br><br>Created by Jason Pike (10/17/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="mFuncHeader"><a name="f_doTurn">void doTurn(Character* currentPlayer, Tile* currentTile, vector&lt;Acards*> AdventureDeck, CircularList&lt;Tile> outer_region, CircularList&lt;Tile> middle_region, CircularList&lt;Tile> inner_region)</a></td>
+  </tr>  <tr>
+    <td class="mFuncDesc"><h3 class="descHeader">Description</h3>This function goes executes one player's turn.</h3><h3 class="paramHeader">Parameters</h3>Character* currentPlayer - Pointer to the current character.<br>Tile* currentTile - Pointer to the current tile.<br>vector&lt;Acards*> AdventureDeck - Vector of adventure cards representing the deck.<br>CircularList&lt;Tile> outer_region - Outer Region tiles in a circularly linked list.<br>CircularList&lt;Tile> middle_region - Middle Region tiles in a circularly linked list.<br>CircularList&lt;Tile> inner_region - Inner Region tiles in a circularly linked list.<br><h3 class="retHeader">Returns</h3><i>Nothing</i><br><br>Created by Jason Pike (10/17/02)<br></td>
+  </tr>
+  <tr>
+    <td class="mFuncSpacer">&nbsp;</td>
+  </tr>
+<table cellspacing=0 class="globalVars">
+  <tr>	    <td class="globalHeader">Global Variables</td>
+  </tr>
+  <tr>
+    <td class="gvDesc"><a name="v_NEUTRAL">int NEUTRAL - Constant for character alignment. NEUTRAL = 1</a><br>
+<a name="v_GOOD">int GOOD - Constant for character alignment. GOOD = 2</a><br>
+<a name="v_EVIL">int EVIL - Constant for character alignment. EVIL = 3</a><br>
+<a name="v_TILE_CITY">int TILE_CITY - City tile identifier. TILE_CITY = 0</a><br>
+<a name="v_TILE_CRAGS">int TILE_CRAGS - Crags tile identifier. TILE_CRAGS = 0</a><br>
+<a name="v_TILE_CHAPEL">int TILE_CHAPEL - Chapel tile identifier. TILE_CHAPEL = 0</a><br>
+<a name="v_TILE_GRAVEYARD">int TILE_GRAVEYARD - Graveyard tile identifier. TILE_GRAVEYARD = 0</a><br>
+<a name="v_TILE_VILLAGE">int TILE_VILLAGE - Village tile identifier. TILE_VILLAGE = 0</a><br>
+<a name="v_TILE_FOREST">int TILE_FOREST - Forest tile identifier. TILE_FOREST = 0</a><br>
+<a name="v_TILE_RUINS">int TILE_RUINS - Ruins tile identifier. TILE_RUINS = 0</a><br>
+<a name="v_TILE_TAVERN">int TILE_TAVERN - Tavern tile identifier. TILE_TAVERN = 0</a><br>
+<a name="v_DECK_GEN">int DECK_GEN - Deck generation identifier. DECK_GEN = 1</a><br>
+<a name="v_DECK_POP">int DECK_POP - Deck pop identifier. DECK_POP = 2</a><br>
+<a name="v_DECK_PUSH">int DECK_PUSH - Deck push identifier. DECK_PUSH = 3</a><br>
+</body></body>
+</html>

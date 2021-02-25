@@ -1,0 +1,26 @@
+FUNCTION
+/*@======================================= 
+  @Function FUNCTIONNAME CLASSNAME
+  @Created "NAME" "DATE"
+  @Modified "NAME" "DATE"
+  @Modified "NAME" "DATE"
+
+  @Param TYPE NAME "DESCRIPTION"
+  @Param TYPE NAME "DESCRIPTION" 
+  @Returns TYPE "DESCRIPTION" 
+ 
+  @Desc "FUNCTION_DESCRIPTION"
+=======================================@*/
+
+CLASS
+/*@======================================= 
+  @Class CLASSNAME DERIVEDCLASSNAME
+  @Created "NAME" "DATE"
+  @Modified "NAME" "DATE"
+  @Modified "NAME" "DATE"
+
+  @MFunction TYPE ACCESS NAME "DESCRIPTION"
+  @MData TYPE ACCESS NAME "DESCRIPTION"  
+ 
+  @Desc "CLASS_DESCRIPTION"
+=======================================@*/

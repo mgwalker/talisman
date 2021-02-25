@@ -1,0 +1,30 @@
+List of things to do:
+ 
+ -change all vectors to linked lists
+   -adventure deck
+   -tiles
+ 
+ -add functions to linked list
+   -push_back
+   -pop_back
+   -size
+   -index operator
+   -shuffle
+     -check to find cards in use
+ 
+ -remove templates
+   -linked lists
+   -make node classes
+ 
+ -Turned into a toad
+   -add function to generic character class
+ 
+ -randomize adventure deck
+ 
+ -implement missed turns
+ 
+ -create way of keeping up with cards players have
+   followers, magic objects, objects and the 3 event cards
+ 
+ -networking
+   -two implementations of game
